@@ -1,0 +1,6 @@
+- **Encapsulation:** Private fields with public getters/setters.
+- **Inheritance:** `Electronics` and `Clothing` extend `Product`.
+- **Polymorphism:** `calculateDiscount()` method is overridden in subclasses.
+- **Collections:** Orders stored in `ArrayList<Order>`, user history in `HashMap<Integer, List<Order>>`.
+- **Exception Handling:** Custom `OutOfStockException` prevents orders with insufficient stock.
+- **CLI Interface:** Users can place orders and view order history.
